@@ -1,0 +1,68 @@
+languageCode = "de-DE"
+title = "Mokkapps"
+baseurl = "https://www.mokkapps.de/"
+theme = "prologue"
+
+[params]
+  name = "Michael Hoffmann (Mokkapps)"
+  description = "Softwareentwickler. Kryptowährung-Fanatiker. Videospieler. Imker."
+  copyright = "Mokkapps"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/Mokkapps"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/pg/MokkappsSoftware/"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/MrMojo86"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1"
+
+[[params.social]]
+  medium = "email"
+  icon = "envelope"
+  link = "mailto:kontakt@mokkapps.de"
+
+# Portfolio column one
+
+[[params.portfolio1]]
+  title = "Supermarket Challenge"
+  description = "Technologie: Corona SDK"
+  alt = "Supermarket Challenge"
+  source = "img/supermarket_challenge.png"
+  appStoreImg = "img/app_store.png"
+  playStoreImg = "img/google_play.png"
+  playStoreUrl = "https://play.google.com/store/apps/details?id=de.mokkapps.supermarketchallenge"
+  appStoreUrl = "https://itunes.apple.com/de/app/supermarket-challenge/id1207665675"
+
+# Portfolio column two
+
+[[params.portfolio2]]
+  title = "RebelGamer App"
+  description = "Technologie: React Native"
+  alt = "RebelGamer"
+  source = "img/rebelgamer.png"
+  url = "https://github.com/MrMojo86/RebelGamer"
+  appStoreImg = "img/app_store.png"
+  playStoreImg = "img/google_play.png"
+  playStoreUrl = "https://play.google.com/store/apps/details?id=de.rebelgamer.RebelGamerRSS"
+  appStoreUrl = "https://itunes.apple.com/de/app/rebelgamer-news-fur-gamer/id1187403828"
+
+# Portfolio column 3
+
+[[params.portfolio3]]
+  title = "Scrum Standup Picker"
+  description = "Technologie: Angular 4"
+  alt = "Scrum Standup Picker"
+  source = "img/standup_picker.gif"
+  url = "https://github.com/MrMojo86/scrum-daily-standup-picker"
