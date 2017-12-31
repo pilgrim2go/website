@@ -8,8 +8,10 @@
 
 <head>
 	<title>{{ .Title }}</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Portfolio-Website von Michael Hoffmann (Mokkapps)" />
 	<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="/css/main.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
@@ -55,7 +57,7 @@
 					</li>
 					<li>
 						<a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref">
-							<span class="icon fa-th">Portfolio</span>
+							<span class="icon fa-th">Projekte</span>
 						</a>
 					</li>
 					<li>
@@ -110,7 +112,7 @@
 				</header>
 
 				<footer>
-					<a href="#portfolio" class="button scrolly">Mein Portfolio</a>
+					<a href="#portfolio" class="button scrolly">Meine Projekte</a>
 				</footer>
 
 			</div>
@@ -121,7 +123,7 @@
 			<div class="container">
 
 				<header>
-					<h2>Portfolio</h2>
+					<h2>Projekte</h2>
 				</header>
 
 				<p>Hier eine Übersicht meiner bisherigen privaten Software-Projekte:</p>
@@ -255,22 +257,9 @@
 					<h2>Kontakt</h2>
 				</header>
 
-				<form method="post" action="https://formspree.io/kontakt@mokkapps.de">
-					<div class="row">
-						<div class="6u 12u$(mobile)">
-							<input type="text" name="name" placeholder="Name" />
-						</div>
-						<div class="6u$ 12u$(mobile)">
-							<input type="text" name="email" placeholder="E-Mail" />
-						</div>
-						<div class="12u$">
-							<textarea name="message" placeholder="Nachricht"></textarea>
-						</div>
-						<div class="12u$">
-							<input type="submit" value="Senden" />
-						</div>
-					</div>
-				</form>
+				<a href="mailto:kontakt@mokkapps.de">
+					<button>Schreib mir eine E-Mail</button>
+				</a>
 
 			</div>
 		</section>
@@ -288,6 +277,9 @@
 			</li>
 			<li>Powered by
 				<a href="https://gohugo.io/">Hugo</a>
+			</li>
+			<li>
+				<a href="https://mokkapps.de/impressum">Impressum</a>
 			</li>
 		</ul>
 
