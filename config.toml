@@ -62,7 +62,7 @@ theme = "prologue"
 
 [[params.portfolio3]]
   title = "Scrum Standup Picker"
-  description = "Technologie: Angular 4"
+  description = "Technologie: Angular 5, Electron"
   alt = "Scrum Standup Picker"
-  source = "img/standup_picker.gif"
+  source = "img/standup_picker.jpg"
   url = "https://github.com/Mokkapps/scrum-daily-standup-picker"
