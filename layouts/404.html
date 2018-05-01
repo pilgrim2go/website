@@ -399,20 +399,17 @@
                 404
             </div>
             <div class="subheader primary-text-color">
-                Oops, die gesuchte Seite existiert nicht.
+                    {{ .Site.Params.NotFound.PrimaryText }}
             </div>
             <div class="hr"></div>
             <div class="context secondary-text-color">
-                <p>
-                    Wechseln Sie doch zur Startseite, vielleicht hilft Ihnen das weiter. Sie können mir aber auch eine E-Mail schicken, wen ein
-                    Problem bestehen sollte.
-                </p>
+                <p>{{ .Site.Params.NotFound.SecondaryText }}</p>
             </div>
             <div class="buttons-container">
-                <a class="button" href="https://www.mokkapps.de" target="_blank">
-                    <span class="fa fa-home"></span> Zur Startseite</a>
-                <a class="button" href="mailto:kontakt@mokkapps.de" target="_blank">
-                    <span class="fa fa-warning"></span> Ein Problem melden</a>
+                <a class="button" href="{{ .Site.Params.NotFound.HomePageLink.Link }}" target="_blank">
+                    <span class="fa fa-home"></span>{{ .Site.Params.NotFound.HomePageLink.Text }}</a>
+                <a class="button" href="{{ .Site.Params.NotFound.ReportLink.Link }}" target="_blank">
+                    <span class="fa fa-warning"></span>{{ .Site.Params.NotFound.ReportLink.Text }}</a>
             </div>
         </div>
     </center>

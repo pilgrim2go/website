@@ -1,69 +1,137 @@
-languageCode = "de-DE"
+DefaultContentLanguage = "en"
+
 title = "Mokkapps"
 baseurl = "https://www.mokkapps.de/"
 theme = "prologue"
 googleAnalytics = "UA-93160141-1"
 
 [params]
-  name = "Michael Hoffmann (Mokkapps)"
-  description = "Softwareentwickler. Kryptowährung-Fanatiker. Videospieler. Imker."
-  copyright = "Mokkapps"
+  Description = "Software developer. Cryptocurrency enthusiast. Videogamer. Beekeper."
+  MetaDescription = "Portfolio website from Michael Hoffmann (Mokkapps)"
+  DisplayName = "Michael Hoffmann"
+  Name = "Michael Hoffmann (Mokkapps)"
+  Copyright = "Mokkapps"
+  IntroLink = "Intro"
+  ProjectsDescription = "An overview of my private software prjects:"
+  ProjectsButton = "My projects"
+  ProjectsLink = "Projects"
+  PublicationsLink = "Publications"
+  TalksTitle = "Talks"
+  ArticlesTitle = "Articles"
+  ResumeLink = "Résumé"
+  AboutMeLink = "About me"
+  ContactMeLink = "Contact me"
+  BlogLink = "Mokkapps Blog"
+
+[params.Blog]
+    Link = "https://mokkapps.de/blog"
+    Text = "Go to my blog"
+
+[params.NotFound]
+  PrimaryText = "Oops, the page you were looking for does not exist."
+  SecondaryText = "You could try to navigate to homepage to find the page you were looking for. Alternatively you can send me an email to report any problems."
+
+[params.NotFound.HomePageLink]
+    Link = "https://mokkapps.de"
+    Text = "Go to homepage"
+
+[params.NotFound.ReportLink]
+    Link = "mailto:kontakt@mokkapps.de"
+    Text = "Report a problem"
+
+[params.Impressum]
+  Link = "https://mokkapps.de/impressum"
+  Text = "Legal notice"
+
+[params.ContactMe]
+  Link = "mailto:kontakt@mokkapps.de"
+  ButtonText = "Send me an email"
+
+[params.AboutMe]
+  Intro = "I am a software developer from the Bavarian Forest and currently live in Munich."
+  Spotify = "This is my Spotify playlist which I listen to during programming and sport. It is a crazy mix out of Reggae, Ska, Rock, Hip-Hop, Elektro and more: "
+
+[[params.AboutMe.Statements]]
+    Text = "I set great value upon clean code and a high quality in software development."
+  
+[[params.AboutMe.Statements]]
+    Text = "Finding solutions for problems in finite time is my passion."
+
+[[params.AboutMe.Statements]]
+    Text = "I am very interested in development of mobile apps, websites and video games. If I am not coding I play videogames or do sports."
+
+[[params.Talks]]
+  Link = "https://jambit.com/aktuelles/veranstaltungen/coffeetalks-april-2016/"
+  Title = "CoffeeTalk jambit 2016: Unity – Eine Einführung in die Cross-Plattform-Spieleentwicklung"
+
+[[params.Talks]]
+  Link = "https://www.jambit.com/en/latest-info/events/coffeetalks-june-2017/"
+  Title = "CoffeeTalk jambit 2017: Reactive Programming"
+
+[[params.Talks]]
+  Link = "https://www.mokkapps.de/talks/my-first-smartphone-game/"
+  Title = "Abendvortrag jambit 2018: Mein erstes Smartphone-Spiel"
+
+[[params.Articles]]
+  Link = "https://www.jambit.com/aktuelles/toilet-papers/kotlin-das-bessere-java/"
+  Title = "ToiletPaper jambit 2016: Kotlin: Das bessere Java?"
+
+[[params.Articles]]
+  Link = "http://ieeexplore.ieee.org/document/7313462/authors?reload=true"
+  Title = "Concept for an Intermodal Traveller Information System with Real-Time Data Using Complex Event Processing"
+
+[[params.Articles]]
+  Link = "http://www.rebelgamer.de/author/mike"
+  Title = "Gaming articles on RebelGamer.de"
+
+[[params.Resume]]
+  Link = "https://www.mokkapps.de/cv-pdf/Michael_Hoffmann_CV.pdf"
+  Title = "PDF version"
+
+[[params.Social]]
+  Medium = "twitter"
+  Icon = "twitter"
+  Link = "https://twitter.com/Mokkapps"
+
+[[params.Social]]
+  Medium = "github"
+  Icon = "github"
+  Link = "https://github.com/Mokkapps"
 
 [[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "https://twitter.com/Mokkapps"
+  Medium = "linkedin"
+  Icon = "linkedin"
+  Link = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1"
 
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/pg/MokkappsSoftware/"
+[[params.Social]]
+  Medium = "email"
+  Icon = "envelope"
+  Link = "mailto:kontakt@mokkapps.de"
 
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "https://github.com/Mokkapps"
+[[params.Project1]]
+  Title = "Supermarket Challenge"
+  Description = "Used technology: Corona SDK"
+  Alt = "Supermarket Challenge"
+  Source = "img/supermarket_challenge.png"
+  AppStoreImg = "img/app_store.png"
+  PlayStoreImg = "img/google_play.png"
+  PlayStoreUrl = "https://play.google.com/store/apps/details?id=de.mokkapps.supermarketchallenge"
+  AppStoreUrl = "https://itunes.apple.com/de/app/supermarket-challenge/id1207665675"
 
-[[params.social]]
-  medium = "linkedin"
-  icon = "linkedin"
-  link = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1"
+[[params.Project2]]
+  Title = "RebelGamer Mobile App"
+  Description = "Used technology: React Native"
+  Alt = "RebelGamer"
+  Source = "img/rebelgamer.png"
+  Url = "https://github.com/Mokkapps/rebelgamer-mobile-app"
+  AppStoreImg = "img/app_store.png"
+  PlayStoreImg = "img/google_play.png"
+  PlayStoreUrl = "https://play.google.com/store/apps/details?id=de.rebelgamer.RebelGamerRSS"
+  AppStoreUrl = "https://itunes.apple.com/de/app/rebelgamer-news-fur-gamer/id1187403828"
 
-[[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "mailto:kontakt@mokkapps.de"
-
-# Portfolio column one
-
-[[params.portfolio1]]
-  title = "Supermarket Challenge"
-  description = "Technologie: Corona SDK"
-  alt = "Supermarket Challenge"
-  source = "img/supermarket_challenge.png"
-  appStoreImg = "img/app_store.png"
-  playStoreImg = "img/google_play.png"
-  playStoreUrl = "https://play.google.com/store/apps/details?id=de.mokkapps.supermarketchallenge"
-  appStoreUrl = "https://itunes.apple.com/de/app/supermarket-challenge/id1207665675"
-
-# Portfolio column two
-
-[[params.portfolio2]]
-  title = "RebelGamer App"
-  description = "Technologie: React Native"
-  alt = "RebelGamer"
-  source = "img/rebelgamer.png"
-  url = "https://github.com/Mokkapps/rebelgamer-mobile-app"
-  appStoreImg = "img/app_store.png"
-  playStoreImg = "img/google_play.png"
-  playStoreUrl = "https://play.google.com/store/apps/details?id=de.rebelgamer.RebelGamerRSS"
-  appStoreUrl = "https://itunes.apple.com/de/app/rebelgamer-news-fur-gamer/id1187403828"
-
-# Portfolio column 3
-
-[[params.portfolio3]]
-  title = "Scrum Standup Picker"
-  description = "Technologie: Angular 5, Electron"
-  alt = "Scrum Standup Picker"
-  source = "img/standup_picker.jpg"
-  url = "https://github.com/Mokkapps/scrum-daily-standup-picker"
+[[params.Project3]]
+  Title = "Scrum Standup Picker"
+  Description = "Used technologies: Angular 5, Electron"
+  Alt = "Scrum Standup Picker"
+  Source = "img/standup_picker.jpg"
+  Url = "https://github.com/Mokkapps/scrum-daily-standup-picker"
