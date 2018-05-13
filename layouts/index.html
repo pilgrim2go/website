@@ -108,6 +108,7 @@
 
 				<footer>
 					<a href="#portfolio" class="button scrolly">{{ .Site.Params.ProjectsButton }}</a>
+					<a href="{{ .Site.Params.Blog.Link }}" class="button scrolly">{{ .Site.Params.BlogButton }}</a>
 				</footer>
 
 			</div>
@@ -179,9 +180,21 @@
 						</article>
 						{{ end }}
 					</div>
+
+					{{ range .Site.Params.SideProjects }}
+					<div class="4u 12u$(mobile)">
+						<article class="item">
+							<a href="{{ .Url }}">
+								<header>
+									<h3 style="font-weight: bold">
+										{{ .Title }}
+									</h3>
+								</header>
+							</a>
+						</article>
+					</div>
+					{{ end }}
 				</div>
-
-
 			</div>
 		</section>
 
@@ -195,7 +208,8 @@
 
 				<h3>{{ .Site.Params.BlogLink }}</h3>
 				<a href="{{ .Site.Params.Blog.Link }}">{{ .Site.Params.Blog.Text }}</a>
-				</br></br>
+				</br>
+				</br>
 
 				<h3>{{ .Site.Params.TalksTitle }}</h3>
 				<ul>

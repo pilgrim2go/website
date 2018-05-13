@@ -12,8 +12,9 @@ googleAnalytics = "UA-93160141-1"
   Name = "Michael Hoffmann (Mokkapps)"
   Copyright = "Mokkapps"
   IntroLink = "Intro"
-  ProjectsDescription = "An overview of my private software prjects:"
+  ProjectsDescription = "An overview of my private software projects:"
   ProjectsButton = "My projects"
+  BlogButton = "My blog"
   ProjectsLink = "Projects"
   PublicationsLink = "Publications"
   TalksTitle = "Talks"
@@ -52,11 +53,8 @@ googleAnalytics = "UA-93160141-1"
   Spotify = "This is my Spotify playlist which I listen to during programming and sport. It is a crazy mix out of Reggae, Ska, Rock, Hip-Hop, Elektro and more: "
 
 [[params.AboutMe.Statements]]
-    Text = "I set great value upon clean code and a high quality in software development."
+    Text = "Highly committed, agile personality with broad experience in the field of application development. Experience in working in agile team settings. Delivering excellent results and used to work under pressure."
   
-[[params.AboutMe.Statements]]
-    Text = "Finding solutions for problems in finite time is my passion."
-
 [[params.AboutMe.Statements]]
     Text = "I am very interested in development of mobile apps, websites and video games. If I am not coding I play videogames or do sports."
 
@@ -98,7 +96,7 @@ googleAnalytics = "UA-93160141-1"
   Icon = "github"
   Link = "https://github.com/Mokkapps"
 
-[[params.social]]
+[[params.Social]]
   Medium = "linkedin"
   Icon = "linkedin"
   Link = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1"
@@ -135,3 +133,19 @@ googleAnalytics = "UA-93160141-1"
   Alt = "Scrum Standup Picker"
   Source = "img/standup_picker.jpg"
   Url = "https://github.com/Mokkapps/scrum-daily-standup-picker"
+
+[[params.SideProjects]]
+  Title = "Blockchain Honey Shop"
+  Url = "https://github.com/Mokkapps/blockchain-honey-shop"
+
+[[params.SideProjects]]
+  Title = "VS Code Extension: Jasmine Test Selector"
+  Url = "https://github.com/Mokkapps/jasmine-test-selector"
+
+[[params.SideProjects]]
+  Title = "npm package: GitHub Traffic CLI"
+  Url = "https://github.com/Mokkapps/github-traffic-cli"
+
+[[params.SideProjects]]
+  Title = "WordPress Website: Imkerei Hoffmann"
+  Url = "http://hoffmann-imkerei.de/"
