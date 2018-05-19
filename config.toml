@@ -1,7 +1,7 @@
 DefaultContentLanguage = "en"
 
 title = "Mokkapps"
-baseurl = "https://www.mokkapps.de/"
+baseurl = "https://mokkapps.de/"
 theme = "prologue"
 googleAnalytics = "UA-93160141-1"
 
@@ -67,7 +67,7 @@ googleAnalytics = "UA-93160141-1"
   Title = "CoffeeTalk jambit 2017: Reactive Programming"
 
 [[params.Talks]]
-  Link = "https://www.mokkapps.de/talks/my-first-smartphone-game/"
+  Link = "https://mokkapps.de/talks/my-first-smartphone-game/"
   Title = "Abendvortrag jambit 2018: Mein erstes Smartphone-Spiel"
 
 [[params.Articles]]
@@ -83,7 +83,7 @@ googleAnalytics = "UA-93160141-1"
   Title = "Gaming articles on RebelGamer.de"
 
 [[params.Resume]]
-  Link = "https://www.mokkapps.de/cv-pdf/Michael_Hoffmann_CV.pdf"
+  Link = "https://mokkapps.de/cv-pdf/Michael_Hoffmann_CV.pdf"
   Title = "PDF version"
 
 [[params.Social]]
