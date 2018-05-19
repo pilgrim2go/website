@@ -83,7 +83,7 @@ googleAnalytics = "UA-93160141-1"
   Title = "Gaming articles on RebelGamer.de"
 
 [[params.Resume]]
-  Link = "https://www.mokkapps.de/cv-pdf/Michael_Hoffmann_CV.pdf"
+  Link = "https://www.mokkapps.de/cv/Michael_Hoffmann_CV.pdf"
   Title = "PDF version"
 
 [[params.Social]]
