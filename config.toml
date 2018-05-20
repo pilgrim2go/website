@@ -102,6 +102,11 @@ googleAnalytics = "UA-93160141-1"
   Link = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1"
 
 [[params.Social]]
+  Medium = "dev"
+  Icon = "code"
+  Link = "https://dev.to/mokkapps"
+
+[[params.Social]]
   Medium = "email"
   Icon = "envelope"
   Link = "mailto:kontakt@mokkapps.de"
