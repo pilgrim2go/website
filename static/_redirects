@@ -1,1 +1,2 @@
 /blog/* https://mokkapps-blog.netlify.com/:splat 200
+/talks/my-first-smartphone-game/* https://mokkapps-first-smartphone-game-talk.netlify.com/:splat 200
