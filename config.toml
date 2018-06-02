@@ -6,7 +6,7 @@ theme = "prologue"
 googleAnalytics = "UA-93160141-1"
 
 [params]
-  Description = "Software developer. Cryptocurrency enthusiast. Videogamer. Beekeper."
+  Description = "Mobile, game & frontend developer. Blogger. Videogame enthusiast. Beekeeper."
   MetaDescription = "Portfolio website from Michael Hoffmann (Mokkapps)"
   DisplayName = "Michael Hoffmann"
   Name = "Michael Hoffmann (Mokkapps)"
