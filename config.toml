@@ -19,7 +19,7 @@ googleAnalytics = "UA-93160141-1"
   PublicationsLink = "Publications"
   TalksTitle = "Talks"
   ArticlesTitle = "Articles"
-  ResumeLink = "Résumé"
+  ResumeLink = "CV"
   AboutMeLink = "About me"
   ContactMeLink = "Contact me"
   BlogLink = "Mokkapps Blog"
@@ -54,7 +54,7 @@ googleAnalytics = "UA-93160141-1"
 
 [[params.AboutMe.Statements]]
     Text = "Highly committed, agile personality with broad experience in the field of application development. Experience in working in agile team settings. Delivering excellent results and used to work under pressure."
-  
+
 [[params.AboutMe.Statements]]
     Text = "I am very interested in development of mobile apps, websites and video games. If I am not coding I play videogames or do sports."
 
