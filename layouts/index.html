@@ -30,7 +30,7 @@
 			<!-- Logo -->
 			<div id="logo">
 				<span class="image avatar48">
-					<img src="img/avatar.jpg" alt="" />
+					<img src="img/icon.png" alt="Mokkapps Logo" />
 				</span>
 				<h1 id="title">{{ .Site.Params.Name }}</h1>
 				<p>{{ .Site.Params.Description }}</p>
@@ -233,7 +233,7 @@
 		</section>
 
 		<!-- Resume -->
-		<section id="resume" class="three">
+		<section id="resume" class="four">
 			<div class="container">
 
 				<header>
@@ -252,7 +252,7 @@
 		</section>
 
 		<!-- About Me -->
-		<section id="about" class="four">
+		<section id="about" class="five">
 			<div class="container">
 
 				<header>
@@ -277,15 +277,15 @@
 		</section>
 
 		<!-- Contact -->
-		<section id="contact" class="five">
+		<section id="contact" class="six">
 			<div class="container">
 
 				<header>
 					<h2>{{ .Site.Params.ContactMeLink }}</h2>
 				</header>
 
-				<a href="{{ .Site.Params.ContactMe.Link }}">
-					<button>{{ .Site.Params.ContactMe.ButtonText }}</button>
+				<a class="button scrolly" href="{{ .Site.Params.ContactMe.Link }}">
+					{{ .Site.Params.ContactMe.ButtonText }}
 				</a>
 
 			</div>
