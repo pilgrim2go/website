@@ -139,9 +139,12 @@ googleAnalytics = "UA-93160141-1"
   Source = "img/standup_picker.jpg"
   Url = "https://github.com/Mokkapps/scrum-daily-standup-picker"
 
-[[params.SideProjects]]
-  Title = "Blockchain Honey Shop"
-  Url = "https://github.com/Mokkapps/blockchain-honey-shop"
+[[params.Project4]]
+  Title = "Void Fest 2018 Band Reminder"
+  Description = "Used technologies: React, Node.js"
+  Alt = "Void Fest 2018 Band Reminder"
+  Source = "img/void-fest-band-reminder.png"
+  Url = "https://github.com/Mokkapps/void-fest-pwa"
 
 [[params.SideProjects]]
   Title = "VS Code Extension: Jasmine Test Selector"
@@ -150,7 +153,3 @@ googleAnalytics = "UA-93160141-1"
 [[params.SideProjects]]
   Title = "npm package: GitHub Traffic CLI"
   Url = "https://github.com/Mokkapps/github-traffic-cli"
-
-[[params.SideProjects]]
-  Title = "WordPress Website: Imkerei Hoffmann"
-  Url = "http://hoffmann-imkerei.de/"
