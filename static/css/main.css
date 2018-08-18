@@ -1875,7 +1875,6 @@ article:last-child {
   margin-bottom: 0;
 }
 
-
 /* Image */
 
 .image {
@@ -1892,6 +1891,16 @@ article:last-child {
   width: 48px;
   height: 48px;
   background: transparent;
+}
+
+.image.badge {
+  width: 70%;
+  margin: auto;
+}
+
+.image.apple-badge {
+  margin: auto;
+  width: 61%;
 }
 
 .image.avatar48 img {

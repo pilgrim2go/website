@@ -146,10 +146,9 @@ googleAnalytics = "UA-93160141-1"
   Source = "img/void-fest-band-reminder.png"
   Url = "https://github.com/Mokkapps/void-fest-pwa"
 
-[[params.SideProjects]]
-  Title = "VS Code Extension: Jasmine Test Selector"
-  Url = "https://github.com/Mokkapps/jasmine-test-selector"
-
-[[params.SideProjects]]
-  Title = "npm package: GitHub Traffic CLI"
-  Url = "https://github.com/Mokkapps/github-traffic-cli"
+[[params.Project5]]
+  Title = "GitHub Traffic Viewer"
+  Description = "Used technologies: Gatsby, Firebase"
+  Alt = "A website which shows a list of traffic graphs of your own GitHub repositories"
+  Source = "img/github-traffic-viewer.png"
+  Url = "https://github.com/Mokkapps/github-traffic-viewer-website"

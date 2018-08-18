@@ -135,10 +135,10 @@
 								<h3 style="font-weight: bold">{{ .Title }}</h3>
 								<caption>{{ .Description }}</caption>
 								</br>
-								<a href="{{ .AppStoreUrl }}" class="image fit">
+								<a href="{{ .AppStoreUrl }}" class="image apple-badge">
 									<img src="{{ .AppStoreImg }}" alt="{{ .Alt }}" />
 								</a>
-								<a href="{{ .PlayStoreUrl }}" class="image fit">
+								<a href="{{ .PlayStoreUrl }}" class="image badge">
 									<img src="{{ .PlayStoreImg }}" alt="{{ .Alt }}" />
 								</a>
 							</header>
@@ -157,10 +157,10 @@
 								<caption>{{ .Description }}</caption>
 								</br>
 								<a href="{{ .AppStoreUrl }}" class="image fit">
-									<img src="{{ .AppStoreImg }}" alt="{{ .Alt }}" />
+									<img src="{{ .AppStoreImg }}" alt="{{ .Alt }}" class="image apple-badge"/>
 								</a>
 								<a href="{{ .PlayStoreUrl }}" class="image fit">
-									<img src="{{ .PlayStoreImg }}" alt="{{ .Alt }}" />
+									<img src="{{ .PlayStoreImg }}" alt="{{ .Alt }}" class="image badge"/>
 								</a>
 							</header>
 						</article>
@@ -195,19 +195,19 @@
 						{{ end }}
 					</div>
 
-					{{ range .Site.Params.SideProjects }}
 					<div class="4u 12u$(mobile)">
+						{{ range .Site.Params.Project5 }}
 						<article class="item">
-							<a href="{{ .Url }}">
-								<header>
-									<h3 style="font-weight: bold">
-										{{ .Title }}
-									</h3>
-								</header>
+							<a href="{{ .Url }}" class="image fit">
+								<img src="{{ .Source }}" alt="{{ .Alt }}" />
 							</a>
+							<header>
+								<h3 style="font-weight: bold">{{ .Title }}</h3>
+								<caption>{{ .Description }}</caption>
+							</header>
 						</article>
+						{{ end }}
 					</div>
-					{{ end }}
 				</div>
 			</div>
 		</section>
